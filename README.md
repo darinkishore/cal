@@ -5,7 +5,9 @@
 ```bash
 python -m venv .venv
 pip install .
-``` 
+```
+
+main code is in `utils.py`
 
 example usage is in `example.py`
 
