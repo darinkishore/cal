@@ -4,7 +4,15 @@
 
 ```bash
 python -m venv .venv
+source .venv/bin/activate
 pip install .
+```
+
+alternatively, with `uv`:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh # install uv
+uv sync
+source .venv/bin/activate
 ```
 
 main code is in `utils.py`
